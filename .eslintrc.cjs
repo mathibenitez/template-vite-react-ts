@@ -9,10 +9,11 @@ module.exports = {
     }
   },
   extends: [
+    'standard',
     'plugin:react/recommended',
     'plugin:react/jsx-runtime',
-    'eslint-config-prettier',
-    'standard'
+    'standard-with-typescript',
+    'eslint-config-prettier'
   ],
   overrides: [
   ],
